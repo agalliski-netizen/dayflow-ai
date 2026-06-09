@@ -5,7 +5,7 @@ const T = {
   en: { title:'DayFlow AI', tagline:'Describe your day. Get a smart plan.', inputLabel:'What does your day look like?', placeholder:`Tell me about your day in plain language. For example:\n\n"I have a meeting downtown at 10am that usually lasts an hour. Need to finish a report for my boss, probably 2 hours of work. Gym session in the afternoon, 45 minutes. Pick up kids at 5:30pm."`, btn:'Generate my plan  ✶', loading:'Planning your day...', yourPlan:'Your schedule', tips:'Tips for today', newPlan:'← New plan', footer:'Made with', freeBadge:'3 plans / day free', errorTitle:'Something went wrong', langBtn:'ES' },
     es: { title:'DayFlow AI', tagline:'Describ\u00ed tu d\u00eda. Obten\u00e9 un plan inteligente.', inputLabel:'\u00bfC\u00f3mo es tu d\u00eda?', placeholder:`Cont\u00e1me sobre tu d\u00eda en lenguaje natural. Por ejemplo:\n\n"Tengo una reuni\u00f3n en el centro a las 10am que dura aproximadamente una hora. Necesito terminar un informe para mi jefe, calculo 2 horas. Gimnasio por la tarde, 45 minutos. Buscar a los chicos a las 17:30."`, btn:'Generar mi plan  ✶', loading:'Planificando tu d\u00eda...', yourPlan:'Tu horario', tips:'Consejos para hoy', newPlan:'← Nuevo plan', footer:'Hecho con', freeBadge:'3 planes / d\u00eda gratis', errorTitle:'Algo sali\u00f3 mal', langBtn:'EN' }
     };
-h
+hh
     export default function Home() {
       const [lang, setLang] = useState('en');
         const [description, setDescription] = useState('');
